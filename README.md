@@ -1,4 +1,4 @@
-# LinkedIn Get Profile
+# Venmo Get Recent Payments
 
 ### DOCS
 https://developer.venmo.com/docs/payments
