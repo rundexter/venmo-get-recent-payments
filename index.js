@@ -60,7 +60,7 @@ module.exports = {
 
         // check params.
         if (!accessToken)
-            return this.fail('A [bitbucket_username, bitbucket_password] environment need for this module.');
+            return this.fail('A [venmo_access_token] environment need for this module.');
 
         //send API request
         request.get({
