@@ -4,23 +4,58 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
+            "id": "action",
+            "title":"Pay or Charge"
+        },
+        {
+            "id": "actor",
             "title":"From"
+        },
+        {
+            "id": "status",
+            "title":"Status"
+        },
+        {
+            "id": "limit",
+            "title":"Limit"
+        },
+        {
+            "id": "after",
+            "title":"After"
+        },
+        {
+            "id": "before",
+            "title":"Before"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "status",
+            "title":"Status"
+        },
+        {
+            "id": "date_completed",
+            "title":"Date"
+        },
+        {
+            "id": "target_user",
+            "title":"Payee"
+        },
+        {
+            "id": "actor_username",
+            "title":"Payer"
+        },
+        {
+            "id": "amount",
+            "title":"Amount"
+        },
+        {
+            "id": "note",
+            "title":"Note"
         }
-      */
     ],
+    "icon": "dex-venmo",
     "title": "Venmo Get Recent Payments" /* Required.A display name for the module */
 }
