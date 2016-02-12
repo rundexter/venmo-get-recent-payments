@@ -1,4 +1,5 @@
 # Venmo Get Recent Payments
+Get a list of the current user's most current payment and charges.
 
 ### DOCS
 https://developer.venmo.com/docs/payments
